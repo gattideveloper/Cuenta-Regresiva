@@ -1,0 +1,115 @@
+/*-----> Logo <-----*/
+@font-face{
+    font-family: "TaiganjaType";
+    src:url(../../materiales/fonts/Taiganja-Type.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*-----> Texto <-----*/
+@font-face{
+    font-family: "PetronaBold";
+    src:url(../../materiales/fonts/Petrona-Bold.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "PetronaBoldItalic";
+    src:url(../../materiales/fonts/Petrona-BoldItalic.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "PetronaLight";
+    src:url(../../materiales/fonts/Petrona-Light.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "PetronaLightItalic";
+    src:url(../../materiales/fonts/Petrona-LightItalic.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "PetronaThin";
+    src:url(../../materiales/fonts/Petrona-ThinItalic.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "PetronaThinItalic";
+    src:url(../../materiales/fonts/Petrona-ThinItalic.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*##########################################################*/
+        /*############ FONT FAMILY ############*/
+/*##########################################################*/
+.portada {
+    text-align: center;
+}
+
+.portada .header {
+    letter-spacing: 3px;
+    font-family: 'PetronaThin';
+}
+
+.logo .logoText{
+    font-family: 'TaiganjaType';
+    font-size: 45px;
+}
+
+.portada .header .titulo {
+    font-size: 30px;
+    font-family: 'PetronaBold';
+}
+
+.portada .header .texto {
+    font-size: 25px;
+    font-family: 'PetronaThin';
+}
+
+.simply-section {
+  font-family: "PetronaThinItalic";
+  align-items: center;
+}
+
+/*---> Números <---*/
+.simply-amount {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+/*---> Texto - Días/Hora/Minutos/Segundos <---*/
+.simply-word {
+    font-weight: 300;
+    font-size: 30px;
+}
+
+/* -----> REDES SOCIALES <----- */
+
+.buttons a {
+  text-decoration: none;
+  text-align: center;
+}
+
+/*----- Icon -----*/
+.buttons .icon{
+    font-size: 35px;
+}
+
+/*----- Main -----*/
+#main p{
+  font-size: 18px;
+  font-family: "PetronaBoldItalic";
+  letter-spacing: 2px;
+  text-align: center;
+}

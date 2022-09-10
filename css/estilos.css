@@ -1,0 +1,162 @@
+/*############################################ Import ############################################*/
+/* Fuentes de letras */
+@import url("includes/fonts.css");
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+/*##########################################################*/
+				/*############ CUENTA REGRESIVA ############*/
+/*##########################################################*/
+.portada {
+	display: flex;
+	min-width: 100vw; /*--> Mientras que 100vw equivale al 100% del ancho de área de visualización.*/
+	min-height: 100vh;/*--> Mientras que 100vh equivale al 100% del alto de área de visualización.*/
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #282828;
+	color: #fff;
+	transition: .5s ease-out all;
+}
+
+.portada.oculta {
+	transform: translateY(100%);
+}
+
+.portada .header {
+	margin-bottom: 10px;
+}
+
+.logo img{
+	width: 100px;
+	height: 100px;
+}
+
+.logo .logoText{
+	margin-bottom: 20px;
+}
+
+/* -----> Cuenta Regresiva <----- */
+#cuenta {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+
+.simply-section {
+  display: flex;
+  width: 180px;
+  height: 180px;
+  margin: 20px 20px 0px 20px;
+  justify-content: center;
+  border-radius: 50px;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+/*---> Números <---*/
+.simply-amount {
+	display: block;
+}
+
+/* -----> REDES SOCIALES <----- */
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    min-width: 700px;
+}
+
+.buttons a {
+	width: 65px;
+  height: 65px;
+  line-height: 55px;
+	background-color: #282828;
+  color: #f1f1f1;
+  transition: all .4s ease-in-out;
+  align-items: center;
+}
+
+/*----- Icon -----*/
+.buttons .icon{
+  margin-left: -2px;
+}
+
+.buttons .iconoF:hover,
+.buttons .iconoW:hover,
+.buttons .iconoI:hover,
+.buttons .iconoG:hover,
+.buttons .iconoL:hover,
+.buttons .iconoT:hover{
+  transform: scale(1.2);
+}
+
+/*----- Facebook -----*/
+.buttons .iconoF:hover {
+  color:#3b5998;
+}
+/*----- Whatsapp -----*/
+.buttons .iconoW:hover {
+  color:#00bb2d;
+}
+/*----- Instagram -----*/
+.buttons .iconoI:hover {
+    color:#ff0080;
+}
+/*----- GitHub -----*/
+.buttons .iconoG:hover {
+    color:#171515;
+}
+/*----- Linkedin -----*/
+.buttons .iconoL:hover {
+    color:#0e76a8;
+}
+/*----- Twitter -----*/
+.buttons .iconoT:hover {
+    color:#00acee;
+}
+
+/*##########################################################*/
+				/*############ MAIN ############*/
+/*##########################################################*/
+#main {
+  display: block;
+	max-width: 1000px;
+  padding: 60px 0;
+	margin: auto;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+/*##########################################################################################################################################################*/
+        /*################################################## RESPOSIVE #############################################################*/
+/*##########################################################################################################################################################*/
+
+/*Responsive para Celulares*/
+@media (max-width: 600px){
+  /* -----> Cuenta Regresiva <----- */
+  #cuenta {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+
+  .simply-section {
+    display: flex;
+    width: 140px;
+    height: 140px;
+    margin: 0px 5px 0px 0px;
+  }
+
+  /* -----> REDES SOCIALES <----- */
+  .buttons {
+    display: flex;
+    justify-content: space-around;
+    min-width: 600px;
+  }
+}
